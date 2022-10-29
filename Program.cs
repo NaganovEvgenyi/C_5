@@ -33,11 +33,11 @@
 
  int[] array1 = GetArray(10, 0, 10);
  int count = 0;
- Console.WriteLine($"Вот массив:{String.Join(", ",array1)}");
+ Console.WriteLine($"Массив:{String.Join(", ",array1)}");
  for (int i = 1; i < array1.Length; i+=2){
      count = count + array1[i];
  }
- Console.WriteLine($"Сумма нечетных элементов {count}");
+ Console.WriteLine($"Сумма нечетных элементов массива {count}");
 
 
  int[] GetArray(int size, int minValue, int maxValue)
